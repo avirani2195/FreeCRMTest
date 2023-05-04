@@ -12,7 +12,7 @@ import com.crm.qa.base.TestBase;
 public class HomePage extends TestBase {
 
 	@FindBy(xpath="//span[@class='user-display']")
-	@CacheLookup 												//Improve you script process. 
+	@CacheLookup 												//Improve you script process.    
 	WebElement userNameLabel;
 	
 	@FindBy(xpath="//span[contains(text(),'Contacts')]") 
